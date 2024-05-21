@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Company</title>
+	<!---CSS--->
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="outer-page">
+		<header class="header-section">
+			<div class="header-inner max-width840">
+				<div class="logo">
+					<img class="line-bar" id="lineBar" src="images/line-bar.png" alt="line bar" /> Company
+				</div>
+				<div class="menu-section">
+					<img class="dots" src="images/dots.png" alt="dots" />
+					<nav id="navBar">
+						<ul>
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section class="banner-section">
+			<div class="banner-inner max-width840">
+				<div class="banner-content">
+					<h1>Web development is fun</h1>
+					<p>Thanks for taking this challenge. We're excited to see how you tackle this challenge.</p>
+					<div class="btn-section">
+						<button class="btn">Learn More</button> <button class="btn-get">Get in Touch</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer-section">
+			<div class="footer-inner max-width840">
+				<p>Areas what we serve</p>
+				<h2>Our Services</h2>
+			</div>
+		</footer>
+	</div>
+
+	<script type="text/javascript">
+		const element = document.getElementById("lineBar");
+		element.addEventListener("click", function() {
+		  document.getElementById("navBar").classList.toggle("show");
+			//alert(0)
+		});
+	</script>
+</body>
+</html>
